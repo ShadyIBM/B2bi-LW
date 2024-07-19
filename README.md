@@ -52,7 +52,7 @@ Infrastructure
     ```bash        
     cd multi-tenancy-gitops/0-bootstrap/single-cluster/1-infra
     ```
-    Kustomization.yaml
+    - Kustomization.yaml
 
     - argocd/consolenotification.yaml
     - argocd/namespace-b2bi-prod.yaml
@@ -60,9 +60,8 @@ Infrastructure
     - argocd/serviceaccounts-b2bi-prod.yaml
     - argocd/sfg-b2bi-clusterwide.yaml
     - argocd/daemonset-sync-global-pullsecret.yaml
-    ```
+    
 
-Services
 ### Services - Kustomization.yaml
 
 This recipe is can be implemented using a combination of storage classes. Not all combination will work, the following table lists the storage classes that we have tested to work:
