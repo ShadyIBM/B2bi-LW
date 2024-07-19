@@ -3,9 +3,9 @@
 ## Table of Contents
 
 - [Create-the-Cluster](#Create the Cluster)
+- [Deploying-B2BI](#Deploying the B2BI Sterling File Gateway in a single namespace)
 - [LightWell-Deployment](#LightWell Deployment)
 - [Post-installation-Config](#Post installation Config)
-
   
 ## Create the Cluster
 - Provision a Red Hat OpenShift on IBM Cloud cluster with GitOps Configuration from IBM Technology Zone. Select the ROKS Cluster with GitOps Configuration tile.
